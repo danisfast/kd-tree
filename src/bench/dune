@@ -1,0 +1,3 @@
+(executable
+ (name main)
+ (libraries core core_bench kd_tree))

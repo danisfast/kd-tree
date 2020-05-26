@@ -1,0 +1,6 @@
+(library
+ (name kd_tree)
+ (inline_tests)
+ (libraries base)
+ (preprocess
+  (pps ppx_jane ppx_inline_test ppx_assert)))
